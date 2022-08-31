@@ -83,10 +83,21 @@ header img {
 /* Fim Menu Superior */
 
 main section {
-    padding-top: 9rem;
+    padding-top: 3rem;
 }
 /* Home Area */
 #home {
+    width: 100%;
+}
+#home img{
+    width: 100%;
+    background-color: white;
+    margin-inline: auto;
+    height: 100%;
+    box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+}
+/* Post Area */
+#post {
     width: min(72rem, 100%);
     margin-inline: auto;
     height: 100%;
