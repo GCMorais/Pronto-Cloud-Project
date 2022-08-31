@@ -82,6 +82,22 @@ header img {
 }
 /* Fim Menu Superior */
 
+/* Menu Mobile */
+button{
+    background: transparent;
+    border:none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    display: none;
+    
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255,255,255, 0.2);
+}
 main section {
     padding-top: 3rem;
 }
@@ -149,6 +165,7 @@ article ol{
 }
 
 /* Form Area */
+
 .cog-abuse {
     visibility: hidden !important;
 }
@@ -176,4 +193,32 @@ footer {
 }
 footer div{
     margin-top: 3.5em;
+}
+/* Estilização Scroll Bar */
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #244158;
+    border-radius: 10px;
+}
+/* MEDIA QUERYS */
+
+@media (max-width: 723px){
+    nav ul{
+        visibility: hidden !important;
+    }
+    button{
+        display: flex;
+        margin-top: 1.6rem;
+    }
+    #post{
+        padding: 3em 3em 0px;
+    }
+}
+@media (max-width: 476px){
+    button{
+        display: flex;
+        margin-top: 3.3rem;
+    }
 }
