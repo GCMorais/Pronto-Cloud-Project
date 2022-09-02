@@ -176,6 +176,8 @@ article ol{
     padding: 3em;
     height: 100%;
     box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+    display: flex;
+    position: relative;
 }
 
 /* footer area */ 
